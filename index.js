@@ -85,7 +85,7 @@ app.put('/personajes/:id', (req, res) => {
     writeData(data);
     res.json({message: "personaje actualizado correctamente"});
 });
-
+//hola
 //7
 //borrar
 app.delete('/personajes/:id', (req, res) => {
